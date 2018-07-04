@@ -59,33 +59,7 @@ Distance_travelled_percycle = zeros(20,13);
 %g=framesInHead(alpha(joint_index, 0),L);
 %position_lastlink=g_h*g{17}-position_lastlink;
 
-%   x=rand(100,1)*5;
-%   y=rand(100,1)*5;
-%   plot(x,y,'.')
-%   voronoi(x,y);
-% [workspace_X,workspace_Y] = meshgrid(-20:60,-40:40);
-% K_height = 0*workspace_X;
-%
-% for i = 1:size(workspace_X,1)
-%    for j = 1:size(workspace_X,2)
-%       [~,k] = generate_K_map(workspace_X(i,j),workspace_Y(i,j),15);
-%      K_height(i,j) = k;
-%    end
-% end
-% surf(workspace_X,workspace_Y,K_height);
-% zlabel('anisotropic friction coefficient K','fontsize',20)
-%
-% for i= -20:20:60
-% m(i+21,:)=linspace(i,i,10);
-% p(i+21,:)=linspace(-40,40,10);
-% scatter(m(i+21,:),p(i+21,:),10,'r','fill');
-% end
-%
-%
-% Kvalue = generate_K_map(1,2,m,p);
-% disp(Kvalue);
-%generate_Kmap;
-%%
+
 %visualization
 com_path=com;%record center of mass trajecotry
 h_com=plot(com_path(1,:),com_path(2,:),'b','linewidth',3);
