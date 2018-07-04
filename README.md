@@ -1,2 +1,2 @@
-# Geometric-Planner
-Planning simulation articulated robot Matlab
+# snake_eye
+On-line planning for peg board locomotion of snake robot.
